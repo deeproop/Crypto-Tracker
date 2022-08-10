@@ -24,7 +24,7 @@ const Coin = ({name, price, symbol, marketcap, volume, image, priceChange
           <p className='coin-marketcap'>
             Mkt Cap: ${marketcap.toLocaleString()}
           </p>
-          <a href='https://www.binance.com/en-IN'><button>Buy</button></a>
+          <a href='https://www.binance.com/en-IN'><button className='btn'>Buy</button></a>
         </div>
       </div>
     </div>
